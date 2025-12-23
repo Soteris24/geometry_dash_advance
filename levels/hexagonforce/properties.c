@@ -12,7 +12,7 @@ const unsigned int hexagonforce_properties[] = {
  /*speed*/         1,
  /*level height*/  35,
  /*level width*/   1043,
- /*song*/          MOD_STEREOMA,
+ /*song*/          MOD_HEXAGON,
  /*name length*/   12,
  /*difficulty*/    4,
  /*stars*/         12,
