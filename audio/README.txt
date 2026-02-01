@@ -11,7 +11,7 @@ compress your samples online here: https://audio.online-convert.com/convert-to-w
 Or use FF-MPEG:
 https://www.ffmpeg.org/download.html
 Command config:
-" ffmpeg -i (imput_filename.wav) -ar 16000 -acodec pcm_u8 -y output_filename.wav "
+" ffmpeg -i (input_filename.wav) -ar 16000 -acodec pcm_u8 -y output_filename.wav "
 
 Attention: sample reuse is very important due to storage reasons. If you add samples, you must share them via discord to: ElAngel378.
 
