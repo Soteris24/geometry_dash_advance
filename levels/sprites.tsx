@@ -1879,6 +1879,7 @@
  <tile id="181">
   <properties>
    <property name="bg layer" value="-1"/>
+   <property name="color channel" value="DEFAULT"/>
    <property name="enable rotation" type="bool" value="false"/>
    <property name="hflip" type="bool" value="false"/>
    <property name="rotation angle" type="int" value="0"/>

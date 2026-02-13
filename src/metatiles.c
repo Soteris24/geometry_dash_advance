@@ -210,14 +210,14 @@ const SCR_ENTRY metatiles[][5] = {
     Metatile("BRICKS_SIDE_H",      TILE(0x45, 0, 0, 0), TILE(0x45, 0, H, 0), TILE(0x45, 0, 0, 0), TILE(0x4b, 0, 0, 0), COL_FULL)
     Metatile("BRICKS_SIDE_V",      TILE(0x42, 0, 0, 0), TILE(0x42, 0, H, 0), TILE(0x4d, 0, 0, 0), TILE(0x4c, 0, 0, 0), COL_FULL)
 
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE) // 0xA8
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
-    Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_BL_FLIP", TILE(0x000, 0, H, 0), TILE(0x000, 0, H, 0), TILE(0x1d9, 0, H, 0), TILE(0x1d8, 0, H, 0), COL_GROUND_WAVY_SPIKE_EDGE_BR)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_BR_FLIP", TILE(0x000, 0, H, 0), TILE(0x000, 0, H, 0), TILE(0x1d7, 0, H, 0), TILE(0x000, 0, H, 0), COL_GROUND_WAVY_SPIKE_EDGE_BL)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_TL_FLIP", TILE(0x1d9, 0, H, V), TILE(0x1d8, 0, H, V), TILE(0x000, 0, H, 0), TILE(0x000, 0, H, 0), COL_GROUND_WAVY_SPIKE_EDGE_TR)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_TR_FLIP", TILE(0x1d7, 0, H, V), TILE(0x000, 0, H, 0), TILE(0x000, 0, H, 0), TILE(0x000, 0, H, 0), COL_GROUND_WAVY_SPIKE_EDGE_TL)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_LB_FLIP", TILE(0x1e8, 0, 0, V), TILE(0x000, 0, 0, V), TILE(0x1e9, 0, 0, V), TILE(0x000, 0, 0, V), COL_GROUND_WAVY_SPIKE_EDGE_LT) // 0xA8
+    Metatile("GROUND_WAVY_SPIKE_EDGE_LT_FLIP", TILE(0x000, 0, 0, V), TILE(0x000, 0, 0, V), TILE(0x1e7, 0, 0, V), TILE(0x000, 0, 0, V), COL_GROUND_WAVY_SPIKE_EDGE_LB)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_RB_FLIP", TILE(0x000, 0, 0, V), TILE(0x1e8, 0, H, V), TILE(0x000, 0, 0, V), TILE(0x1e9, 0, H, V), COL_GROUND_WAVY_SPIKE_EDGE_RT)
+    Metatile("GROUND_WAVY_SPIKE_EDGE_RT_FLIP", TILE(0x000, 0, 0, V), TILE(0x000, 0, 0, V), TILE(0x000, 0, 0, V), TILE(0x1e7, 0, H, V), COL_GROUND_WAVY_SPIKE_EDGE_RB)
     Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
     Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)
     Metatile("EMPTY",    TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), TILE(0, 0, 0, 0), COL_NONE)

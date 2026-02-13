@@ -1259,6 +1259,7 @@ const jmp_table routines_jump_table[] = {
 
     blue_tp_portal,
     do_nothing,
+    do_nothing,
 };
 
 // In pixels
@@ -1497,6 +1498,7 @@ const s16 obj_hitbox[][6] = {
 
     Object_Hitbox_Rectangle("BLUE_TP_PORTAL", 14, 48, 6, -16, 8, 8)
     Object_Hitbox_Rectangle("ORANGE_TP_PORTAL", 0, 0, 0, 0, 8, 8)
+    Object_Hitbox_Rectangle("SMALL_DIAMOND_BG_CHAINS", 0, 0, 0, 0, 8, 8)
 
 };
 

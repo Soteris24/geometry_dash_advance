@@ -1387,6 +1387,16 @@ const u16 bgChainsP2Spr[] = {
     CENTER(8, 8),
     0xffff
 };
+const u16 bgChainsP2SmallSpr[] = {
+    ATTR0_4BPP | ATTR0_SQUARE | ATTR0_BLEND,
+    ATTR1_SIZE_16x16,
+    ATTR2_PALBANK(P2) | ATTR2_PRIO(3),
+    0,   // x
+    0, // y
+    PRIO_IDOFF(6, 0, 0), // id offset
+    CENTER(8, 8),
+    0xffff
+};
 
 const u16 bgChainsBigSpr[] = {
     ATTR0_4BPP | ATTR0_SQUARE | ATTR0_BLEND,
@@ -2235,6 +2245,7 @@ ROM_DATA const u16 *obj_sprites[] = {
 
     wavePortalSpr, // Blue tp portal
     ufoPortalSpr,  // Orange tp portal
+    bgChainsP2SmallSpr,
 };
 
 #undef P1
@@ -2492,6 +2503,8 @@ const u32 obj_chr_offset[][2] = {
     
     CHR_SLOT("BLUE_TP_PORTAL",   0xa90, 0x28)
     CHR_SLOT("ORANGE_TP_PORTAL", 0xa90, 0x28)
+    
+    CHR_SLOT("SMALL_DIAMOND_BG_CHAINS", 0x514, 0x4)
 };
 #undef CHR_SLOT
 

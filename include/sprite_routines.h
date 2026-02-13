@@ -261,6 +261,8 @@ enum ObjTypes {
     BLUE_TP_PORTAL,
     ORANGE_TP_PORTAL,
 
+    SMALL_DIAMOND_BG_CHAINS,
+
     OBJ_COUNT
 };
 
