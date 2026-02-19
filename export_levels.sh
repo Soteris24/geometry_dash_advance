@@ -17,6 +17,7 @@ levels=(
   clubstep
   electrodynamix
   hexagonforce
+  autocycles
   retray
   invisontrack
   leveleasy
