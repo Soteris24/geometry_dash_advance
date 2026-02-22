@@ -35,6 +35,7 @@ py export_levels.py^
  cantletgov2^
  funnygameholiday^
  thenightmare^
+ demonjumper^
  rose^
  problematic^
  deathmoon^

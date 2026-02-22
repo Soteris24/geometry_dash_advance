@@ -35,6 +35,7 @@ levels=(
   cantletgov2
   funnygameholiday
   thenightmare
+  demonjumper
   rose
   problematic
   deathmoon
