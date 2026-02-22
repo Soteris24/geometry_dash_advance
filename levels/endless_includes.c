@@ -1,6 +1,7 @@
 #include "endless_includes.h"
 
 ROM_DATA const u16 *endless_part_defines[][4] = {
+   { part_0d_l1_level_data, part_0d_l2_level_data, part_0d_spr_data, (u16 *) endless_part_0d_properties },
    { part_07_l1_level_data, part_07_l2_level_data, part_07_spr_data, (u16 *) endless_part_07_properties },
    { part_00_l1_level_data, part_00_l2_level_data, part_00_spr_data, (u16 *) endless_part_00_properties },
    { part_05_l1_level_data, part_05_l2_level_data, part_05_spr_data, (u16 *) endless_part_05_properties },
