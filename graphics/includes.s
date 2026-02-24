@@ -11,6 +11,7 @@
 .global line_background_chr
 .global checkerboard_background_chr
 .global hexagon_background_chr
+.global brick_background_chr
 .global title_screen_chr
 .global level_select_chr
 .global animated_sprites
@@ -61,6 +62,9 @@ checkerboard_background_chr:
         
 hexagon_background_chr:
     .incbin "graphics/backgrounds/hexagon_background.chr"
+        
+brick_background_chr:
+    .incbin "graphics/backgrounds/brick_background.chr"
 
 cubes:
     .incbin "graphics/icons/cubes.chr"

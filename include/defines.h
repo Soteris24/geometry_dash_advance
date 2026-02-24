@@ -17,7 +17,7 @@
 #define NUM_COINS_PER_LEVEL 8
 
 // Number of main menu levels
-#define NUM_MAIN_MENU_LEVELS 16
+#define NUM_MAIN_MENU_LEVELS 17
 
 /* GAMEPLAY */
 // Number of stored checkpoints before older ones are overwritten

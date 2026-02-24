@@ -17,6 +17,7 @@ py export_levels.py^
  clubstep^
  electrodynamix^
  hexagonforce^
+ blastprocessing^
  autocycles^
  retray^
  invisontrack^

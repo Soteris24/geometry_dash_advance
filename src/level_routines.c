@@ -606,6 +606,10 @@ void set_background(u16 background_ID) {
             memcpy16(&se_mem[29][0], hexagon_background_tilemap, sizeof(hexagon_background_tilemap) / 2);
             memcpy32(&tile_mem[2][0], hexagon_background_chr, sizeof(hexagon_background_chr) / 4);
             break;
+        case BG_BRICK:
+            memcpy16(&se_mem[29][0], brick_background_tilemap, sizeof(brick_background_tilemap) / 2);
+            memcpy32(&tile_mem[2][0], brick_background_chr, sizeof(brick_background_chr) / 4);
+            break;
     }
 
     // Copy back menu tiles

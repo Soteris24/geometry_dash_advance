@@ -17,6 +17,7 @@ levels=(
   clubstep
   electrodynamix
   hexagonforce
+  blastprocessing
   autocycles
   retray
   invisontrack
